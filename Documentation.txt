@@ -1,0 +1,28 @@
+Greetings🤝:  “Thank you for purchasing Artevia – Interior Design HTML Template. This documentation will guide you through the installation, customization, and usage process.”
+
+Artevia/
+│── index.html
+├── Assets/
+│   ├── CSS/
+│   │   ├── default.css
+│   │   ├── main.css
+│   │   └── responsive.css
+│   ├── JS/
+│   │        ├── animation/
+│   │        ├── hamurger.js
+│   │        ├── header.js
+│   │        ├── hero-bg.js
+│   │        ├── preloader.js
+│   │   ├── util/
+│   │       ├── itobs.js
+│   │       ├── gallery.js
+│   ├── Images/ 
+│   │    ├── clients ---> You can change your client logos here
+│   │    ├── gallery ---> You can use your project images here
+│   │    ├── icons
+│   └── Fonts/
+│          ├── google fonts ("Ibarra Real Nova", "Playfair Display" and "Inter")
+│
+│
+├── Documentation/
+└── README.txt

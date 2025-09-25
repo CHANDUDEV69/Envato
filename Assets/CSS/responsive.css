@@ -1,0 +1,265 @@
+/* Small Screens (<=719px) */
+@media screen and (max-width: 719px) {
+	.ham-burger {
+		position: relative;
+		width: 30px;
+		height: 30px;
+	}
+
+	.ham-burger span {
+		position: absolute;
+		width: 21px;
+		height: 2px;
+		background: #afafaf;
+		transition: 0.30s ease-in-out;
+	}
+
+	.ham-burger span.line1 {
+		margin-top: 5px;
+	}
+
+	.ham-burger span.line2 {
+		margin-top: 13px;
+	}
+
+	.ham-burger span.line3 {
+		margin-top: 21px;
+	}
+
+	.ham-burger.active span.line1 {
+		transform: rotate(45deg);
+		margin-top: 15px;
+	}
+
+	.ham-burger.active span.line2 {
+		display: none;
+	}
+
+	.ham-burger.active span.line3 {
+		transform: rotate(135deg);
+		margin-top: 15px;
+	}
+
+	.navlinks ul.desktop {
+		display: none;
+	}
+
+	.navlinks ul.mobile.hidden {
+		display: none;
+		margin-right: -270px;
+	}
+
+	.navlinks ul.mobile {
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+		margin-top: 48px;
+		margin-right: -2.1rem;
+		margin-right: clamp(-2.1rem, -5.1vw, -6rem);
+		isolation: isolate;
+		transition: opacity 0.21s ease-in-out;
+		background: var(--template-primary-gradient);
+		padding: 1.2rem 3rem 1.2rem 2.4rem;
+		border-bottom-left-radius: 9px;
+	}
+
+	/* Hero Section CSS */
+	.Hero {
+		position: relative;
+	}
+
+	.Hero::before {
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		background: linear-gradient(0deg, #261301, #fff);
+		z-index: -1;
+		animation: gradientBg 6s linear infinite;
+	}
+
+	.Hero .hero-content {
+		width: 100%;
+	}
+
+	.hero-action-controllers .btn {
+		display: block;
+	}
+
+	.btn.dark-brown {
+		margin-bottom: 18px;
+	}
+
+	/* carousal indicators overriding css*/
+	#carouselExampleIndicators ol {
+		margin-bottom: 0px;
+		gap: 9px;
+		opacity: 0.6;
+	}
+
+	#carouselExampleIndicators ol li {
+		border: 1px solid #261301;
+	}
+
+	#carouselExampleIndicators ol li.active {
+		background: #261301;
+	}
+
+	.service_cards {
+		gap: 1.8rem;
+	}
+
+	.Services::after {
+		opacity: 1;
+		background-size: 50% 100%;
+	}
+
+	.galleryImgViewer {
+		margin-top: 24vh;
+	}
+
+	.imgViewerControllers,
+	.modalClose {
+		opacity: 1;
+	}
+
+	.blogCard {
+		min-height: max-content;
+	}
+
+	.blogContent {
+		grid-template-columns: 1fr;
+	}
+
+	.blogLargeView {
+		display: none;
+	}
+}
+
+/* Large Screens (>=720px) */
+@media screen and (min-width: 720px) {
+	.navlinks ul.mobile {
+		display: none;
+	}
+
+	.navlinks ul.desktop {
+		display: flex;
+	}
+
+	/* Hero Section CSS */
+	.Hero {
+		position: relative;
+	}
+
+	.Hero::before {
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		background: #000;
+		z-index: -1;
+	}
+
+	.hero-items {
+		display: flex;
+	}
+
+	.Hero .hero-content {
+		width: 50%;
+	}
+
+	.hero-image1 {
+		background-image: url("../images/banner_bg3.png");
+	}
+
+	.hero-image2 {
+		background-image: url("../images/banner_bg2.png");
+	}
+
+	.hero-image3 {
+		background-image: url("../images/banner_bg1.png");
+	}
+
+	.hero-image {
+		position: relative;
+		width: 50%;
+		background-size: cover;
+	}
+
+	.hero-image::before {
+		position: absolute;
+		content: "";
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		background-image: linear-gradient(90deg, #000, #0003, #0001, #0000, #0000);
+	}
+
+	.hero-image::after {
+		position: absolute;
+		content: "";
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		background-image: repeating-conic-gradient(from 135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+		filter: blur(3px);
+		background-size: 1rem 100%;
+		transition: 0.3s linear;
+	}
+
+	.carousel-item.active .hero-image::after {
+		width: 0%;
+	}
+
+	.hero-action-controllers {
+		display: flex;
+		gap: 21px;
+	}
+
+	#carouselExampleIndicators li {
+		cursor: pointer;
+	}
+
+	svg {
+		display: none;
+	}
+
+	.service_card:hover {
+		transform: translateY(-3px);
+		background: #ccc6;
+		box-shadow: 2px 3px 5px #28282866;
+	}
+
+	.Services.IS .service_cards,
+	.Services.IS .servicesCTA {
+		margin-top: 12rem;
+		opacity: 0.1;
+	}
+
+	.blogs .blogCard {
+		opacity: 1;
+		margin-top: 0rem;
+		transition: 1.5s ease-in;
+	}
+
+	.blogs.IS .blogCard {
+		margin-top: 12rem;
+		opacity: 0;
+	}
+
+	.imgViewerControllers img {
+		cursor: pointer;
+	}
+
+	.galleryImg:hover .zoomIcon {
+		opacity: 1;
+	}
+
+}

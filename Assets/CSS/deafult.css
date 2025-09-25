@@ -1,0 +1,125 @@
+/* Google "Ibarra Real Nova" font CDN */
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap');
+/* Google Playfair Display" CDN */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Google "Inter" font CDN */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Reset Defaults */
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	position: relative;
+	scroll-behavior: smooth;
+}
+
+/* template defaults */
+:root {
+	--primary-action-font: "Ibarra Real Nova", serif;
+	--secondary-sub-font: "Playfair Display", serif;
+	--template-readable-font: "Inter", sans-serif;
+	--template-primary-gradient: linear-gradient(#130b00, #000, #000);
+	--template-primary-color: #261301;
+	--template-heading-three: clamp(1.5rem, 1.8vw, 3rem);
+	--default-horizontal-pad: clamp(2.1rem, 5.1vw, 6rem);
+}
+
+a,
+a:hover,
+a:focus {
+	text-decoration: none !important;
+}
+
+.default-pad {
+	padding-inline: var(--default-horizontal-pad);
+}
+
+section {
+	position: relative;
+	padding-block: 3rem;
+	padding-block: clamp(3rem, 4.8vw, 6rem);
+}
+
+ul li {
+	list-style-type: none;
+}
+
+a {
+	font-size: 1rem;
+	font-size: clamp(1rem, 1.2vw, 2.1rem);
+	font-family: var(--primary-action-font);
+	font-weight: 500;
+	letter-spacing: 1.2px;
+}
+
+button {
+	position: relative;
+	font-family: var(--primary-action-font) !important;
+}
+
+h1,
+h2 {
+	position: relative;
+	font-family: var(--primary-action-font) !important;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+.card_title h3 {
+	font-family: var(--template-readable-font);
+	font-size: 1.2rem;
+	font-size: clamp(1.2rem, 1.5vw, 2rem);
+}
+
+h3 {
+	font-size: clamp(1.2rem, 1.5vw, 2rem) !important;
+}
+
+.paragraph-default,
+p,
+input,
+textarea {
+	font-size: 1rem;
+	font-size: clamp(0.9rem, 1.2vw, 1.5rem);
+	font-family: var(--template-readable-font);
+}
+
+.heading3 {
+	font-size: var(--template-heading-three) !important;
+	font-family: var(--secondary-sub-font) !important;
+}
+
+.Hero .hero-content h1 {
+	font-size: 2rem;
+	font-size: clamp(1.8rem, 5.1vw, 42px);
+	font-weight: 500 !important;
+}
+
+.Hero .hero-content p {
+	font-family: var(--template-readable-font);
+}
+
+.btn {
+	font-family: var(--primary-action-font);
+	padding: 12px 15px !important;
+	font-weight: 500 !important;
+}
+
+.btn.dark-brown {
+	background: var(--template-primary-color);
+	color: #fff !important;
+}
+
+.btn.btn-regular {
+	background: #fff;
+	color: #000 !important;
+}
+
+#carouselExampleIndicators ol li {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+}

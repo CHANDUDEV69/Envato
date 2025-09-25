@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTEVIA - Interior Design Agency HTML Template</title>
+    <link rel="stylesheet" href="Assets/CSS/deafult.css">
+    <link rel="stylesheet" href="Assets/CSS/main.css">
+    <link rel="stylesheet" href="Assets/CSS/responsive.css">
+    <!-- Bootstrap CDN Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+    <!-- preloader -->
+     <div class="preloader" id="preloader">
+        <div class="preLoaderImg">
+            <img src="Assets/images/loading.gif" alt="loading" width="100%"/>
+        </div>
+     </div>
+    <!-- header start -->
+    <header class="header default-pad">
+        <div class="header_content">
+            <div class="logo_wrapper">
+                <a href="/">
+                    <picture>
+                        <source srcset="./Assets/images/logo-white.png" media="(prefers-color-scheme: dark)">
+                        <img src="./Assets/images/logo.png" alt="ARTEVIA Logo" width="100%" />
+                    </picture>
+                </a>
+            </div>
+            <nav class="navlinks">
+                <div class="ham-burger">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <ul class="desktop">
+                    <li>
+                        <a href="#about">
+                            ABOUT US
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#gallery">
+                            PROJECTS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#services">
+                            SERVICES
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#blogs">
+                            BLOGS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contactus">
+                            CONTACT
+                        </a>
+                    </li>
+                </ul>
+                <ul class="mobile hidden">
+                    <li>
+                        <a href="#about">
+                            ABOUT US
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#gallery">
+                            PROJECTS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#services">
+                            SERVICES
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#blogs">
+                            BLOGS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contactus">
+                            CONTACT
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- header end -->
+    <div class="ctaBtnControllers">
+
+        <div class="ctaBtn">
+            <a href="tel:+91 123456789" id="callBtn">
+                <img src="Assets/images/icons/telephone.svg" alt="Call" width="18px">
+            </a>
+        </div>
+        <div class="ctaBtn">
+            <a href="https://wa.me/+91 123456789">
+                <img src="Assets/images/icons/whatsapp.svg" alt="Whatsapp" width="18px">
+            </a>
+        </div>
+    </div>
+
+    <!-- Hero Start -->
+    <section class="Hero default-pad">
+        <svg viewBox="0 0 600 700" xmlns="http://www.w3.org/2000/svg" style="position: absolute;left:0;top: 0;">
+            <filter id="displacementFilter">
+                <feTurbulence baseFrequency="0.03" seed="1" result="turbulence" id="turb" />
+                <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="100" xChannelSelector="R" yChannelSelector="G" />
+            </filter>
+
+            <circle cx="90" cy="60" r="500" fill="#261301d4" filter="url(#displacementFilter)" id="circle" />
+        </svg>
+
+
+
+
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="hero-items">
+                        <div class="hero-content">
+                            <h3 class="heading3">Modern & Elegant</h3>
+                            <h1>
+                          TRANSFORMING SPACES,
+                          ELEVATING LIFE STYLES
+                      </h1>
+                            <p>
+                                Discover bescope interior design solutions tailored to your lifestyles. From concept to completion, we craft homes and workspaces that inspire comfort, elegance, and functionality.
+                            </p>
+                            <div class="hero-action-controllers">
+                                <a href="#" class="btn dark-brown">GET STARTED</a>
+                                <a href="#" class="btn btn-regular">OUR PORTFOLIO</a>
+                            </div>
+                        </div>
+                        <div class="hero-image hero-image1">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero-items">
+                        <div class="hero-content">
+                            <h3 class="heading3">Modern & Elegant</h3>
+                            <h1>
+                TRANSFORMING SPACES,
+                ELEVATING LIFE STYLES
+            </h1>
+                            <p>
+                                Discover bescope interior design solutions tailored to your lifestyles. From concept to completion, we craft homes and workspaces that inspire comfort, elegance, and functionality.
+                            </p>
+                            <div class="hero-action-controllers">
+                                <a href="#" class="btn dark-brown">GET STARTED</a>
+                                <a href="#" class="btn btn-regular">OUR PORTFOLIO</a>
+                            </div>
+                        </div>
+                        <div class="hero-image hero-image2">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero-items">
+                        <div class="hero-content">
+                            <h3 class="heading3">Modern & Elegant</h3>
+                            <h1>
+                TRANSFORMING SPACES,
+                ELEVATING LIFE STYLES
+            </h1>
+                            <p>
+                                Discover bescope interior design solutions tailored to your lifestyles. From concept to completion, we craft homes and workspaces that inspire comfort, elegance, and functionality.
+                            </p>
+                            <div class="hero-action-controllers">
+                                <a href="#" class="btn dark-brown">GET STARTED</a>
+                                <a href="#" class="btn btn-regular">OUR PORTFOLIO</a>
+                            </div>
+                        </div>
+                        <div class="hero-image hero-image3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero End -->
+
+    <!-- Services Start -->
+    <section class="Services default-pad IS" id="services">
+        <h2>OUR SERVICES</h2>
+        <div class="service_cards">
+            <div class="service_card">
+                <div class="card_icon">
+                    <img src="Assets/images/icons/home-white.png" alt="Home" width="30px" />
+                </div>
+                <div class="card_title">
+                    <h3>
+                        Resedential Interior Design
+                    </h3>
+                </div>
+                <div class="card_content paragraph-default">Transform your home into a stunning reflection of your personality with our comprehensive interior design solutions tailored for modern living.
+                    <ul class="card_list">
+                        <li><img src="Assets/images/icons/pointing-right.png" alt="" width="18px"> Space Planning</li>
+                        <li><img src="Assets/images/icons/pointing-right.png" alt="" width="18px"> Custom Furniture</li>
+                        <li><img src="Assets/images/icons/pointing-right.png" alt="" width="18px"> Color Consultation</li>
+                    </ul>
+                </div>
+                <a href="#" class="learnmore regular">Learn More <span><img src="Assets/images/icons/arrow-right-short.svg" alt="next arrow" width="21px"></span></a>
+            </div>
+            <div class="service_card">
+                <div class="card_icon">
+                    <img src="Assets/images/icons/aparment.png" alt="Home" width="30px" />
+                </div>
+                <div class="card_title">
+                    <h3>
+                        Commercial Space Planning
+                    </h3>
+                </div>
+                <div class="card_content paragraph-default">Create inspiring work environments that boost productivity and reflect your brand identity with our strategic commercial design approach.
+                    <ul class="card_list">
+                        <li><img src="Assets/images/icons/pointing-right.png" alt="" width="18px">Office Layout</li>
+                        <li><img src="Assets/images/icons/pointing-right.png" alt="" width="18px">Brand Integration</li>
+                        <li><img src="Assets/images/icons/pointing-right.png" alt="" width="18px">Ergonomic Solutions</li>
+                    </ul>
+                </div>
+                <a href="#" class="learnmore regular">Learn More <span><img src="Assets/images/icons/arrow-right-short.svg" alt="next arrow" width="21px"></span></a>
+            </div>
+            <div class="service_card">
+                <div class="card_icon">
+                    <img src="Assets/images/icons/light-bulb-white.png" alt="Home" width="30px" />
+                </div>
+                <div class="card_title">
+                    <h3>
+                        Modern Kitchen Solutions
+                    </h3>
+                </div>
+                <div class="card_content paragraph-default">
+                    Design the heart of your home with our innovative kitchen solutions that blend functionality with contemporary aesthetics.
+                    <ul class="card_list">
+                        <li><img src="Assets/images/icons/pointing-right.png" alt="" width="18px"> Smart Storage</li>
+                        <li><img src="Assets/images/icons/pointing-right.png" alt="" width="18px"> Premium Appliances</li>
+                        <li><img src="Assets/images/icons/pointing-right.png" alt="" width="18px"> Custom Cabinetry</li>
+                    </ul>
+                </div>
+                <a href="#" class="learnmore regular">Learn More <span><img src="Assets/images/icons/arrow-right-short.svg" alt="next arrow" width="21px"></span></a>
+            </div>
+            <div class="service_card">
+                <div class="card_icon">
+                    <img src="Assets/images/icons/spanner.png" alt="Home" width="30px" />
+                </div>
+                <div class="card_title">
+                    <h3>
+                        Renovation & Remodeling
+                    </h3>
+                </div>
+                <div class="card_content paragraph-default">
+                    Breathe new life into existing spaces with our comprehensive renovation services that maximize potential and enhance value.
+                    <ul class="card_list">
+                        <li><img src="Assets/images/icons/pointing-right.png" alt="" width="18px"> Full Renovation</li>
+                        <li><img src="Assets/images/icons/pointing-right.png" alt="" width="18px"> Structural Changes</li>
+                        <li><img src="Assets/images/icons/pointing-right.png" alt="" width="18px"> Historic Preservation</li>
+                    </ul>
+                </div>
+                <a href="#" class="learnmore regular">Learn More <span><img src="Assets/images/icons/arrow-right-short.svg" alt="next arrow" width="21px"></span></a>
+            </div>
+            <div class="service_card">
+                <div class="card_icon">
+                    <img src="Assets/images/icons/color-palette.png" alt="Home" width="30px" />
+                </div>
+                <div class="card_title">
+                    <h3>
+                        Turnkey Interior Solutions
+                    </h3>
+                </div>
+                <div class="card_content paragraph-default">Experience hassle-free design transformation with our complete turnkey solutions that handle every detail from concept to completion.
+                    <ul class="card_list">
+                        <li><img src="Assets/images/icons/pointing-right.png" alt="" width="18px">Project Management</li>
+                        <li><img src="Assets/images/icons/pointing-right.png" alt="" width="18px">Quality Assurance</li>
+                        <li><img src="Assets/images/icons/pointing-right.png" alt="" width="18px">Timeline Guarantee</li>
+                    </ul>
+                </div>
+                <a href="#" class="learnmore regular">Learn More <span><img src="Assets/images/icons/arrow-right-short.svg" alt="next arrow" width="21px"></span></a>
+            </div>
+            <div class="service_card">
+                <div class="card_icon">
+                    <img src="Assets/images/icons/sofa.png" alt="Home" width="30px" />
+                </div>
+                <div class="card_title">
+                    <h3>
+                        Furniture & Decor Curation
+                    </h3>
+                </div>
+                <div class="card_content paragraph-default">
+                    Elevate your space with carefully curated furniture and decorative elements that create cohesive and sophisticated environments.
+                    <ul class="card_list">
+                        <li><img src="Assets/images/icons/pointing-right.png" alt="" width="18px"> Custom Pieces</li>
+                        <li><img src="Assets/images/icons/pointing-right.png" alt="" width="18px"> Artisan Craftsmanship</li>
+                        <li><img src="Assets/images/icons/pointing-right.png" alt="" width="18px"> Styling Services</li>
+                    </ul>
+                </div>
+                <a href="#" class="learnmore regular">Learn More <span><img src="Assets/images/icons/arrow-right-short.svg" alt="next arrow" width="21px"></span></a>
+            </div>
+        </div>
+
+        <div class="servicesCTA">
+            <h3>Ready to Transform Your Space?</h3>
+            <p class="paragraph-default">
+                Let's discuss your vision and create something extraordinary together. Our team is ready to bring your dream space to life.
+            </p>
+            <button class="btn sctaBtn">START YOUR PROJECT <img src="Assets/images/icons/arrow-right-short.svg" alt="next arrow" width="21px"></button>
+        </div>
+    </section>
+    <!-- Services End -->
+
+
+    <!-- About Start -->
+    <section class="about default-pad IS" id="about">
+        <!-- <h2>ABOUT</h2> -->
+        <div class="aboutRow">
+            <div class="aboutCol colOne">
+                <h2>ABOUT US </h2>
+                <div class="quote_line">
+                    Crafting Inspiring Interiors, One Space at a Time
+                </div>
+
+                <div class="about_content">
+                    <p>
+                        At Artevia, we believe your space should tell your story. Our team of passionate designers blends creativity, functionality, and innovation to create interiors that reflect your personality and lifestyle.
+                    </p>
+                    <p>
+                        From concept to completion, we specialize in residential, commercial, and luxury interiors, delivering timeless designs with meticulous attention to detail. Whether you’re transforming your home or redefining your workspace, Artevia ensures every corner
+                        resonates with style, comfort, and elegance.
+                    </p>
+                    <p>
+                        With a commitment to quality and a keen eye for design trends, we seamlessly combine aesthetics with practicality.
+                    </p>
+                </div>
+            </div>
+
+            <div class="aboutCol colTwo">
+                <div class="officeImg">
+                    <img src="Assets/images/artevia_office.png" alt="artevia office image" width="100%">
+                    <span>
+                            Office @Bangalore
+                        </span>
+                </div>
+            </div>
+
+        </div>
+        <div class="aboutCounters">
+            <div class="aboutCounter">
+                <h3><span class="counter" data-target="500">500</span>+</h3>
+                <div class="couterDesc">
+                    Projects
+                </div>
+            </div>
+            <div class="aboutCounter">
+                <h3><span class="counter" data-target="15">15</span>+</h3>
+                <div class="couterDesc">
+                    Years
+                </div>
+            </div>
+            <div class="aboutCounter">
+                <h3><span class="counter" data-target="98">98</span>%</h3>
+                <div class="couterDesc">
+                    Satisfaction
+                </div>
+            </div>
+            <div class="aboutCounter">
+                <h3><span class="counter" data-target="50">50</span>+</h3>
+                <div class="couterDesc">
+                    Awards
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About End -->
+
+
+    <!-- Gallery Start -->
+    <section class="projectGallery default-pad" id="gallery">
+        <h2>PROJECT GALLERY</h2>
+
+        <div class="galleryTabs">
+            <div class="tab tab1 active">All</div>
+            <div class="tab tab2">Ongoing Projects</div>
+            <div class="tab tab3">Completed Projects</div>
+        </div>
+        <!-- HTML Modal -->
+        <div class="galleryViewer">
+            <div class="galleryImg completed">
+                <img src="Assets/images/gallery/image1.jpg" alt="gallery image" class="galThumb" style="--i: 0" width="100%" />
+                <div class="zoomIcon">
+                    <img src="Assets/images/icons/zoom-in.svg" alt="click" width="18px" />
+                </div>
+            </div>
+            <div class="galleryImg completed">
+                <img src="Assets/images/gallery/image2.jpg" alt="gallery image" class="galThumb" width="100%" data-target="1" />
+                <div class="zoomIcon">
+                    <img src="Assets/images/icons/zoom-in.svg" alt="click" width="18px" />
+                </div>
+            </div>
+            <div class="galleryImg completed">
+                <img src="Assets/images/gallery/image3.jpg" alt="gallery image" class="galThumb" width="100%" data-target="2" />
+                <div class="zoomIcon">
+                    <img src="Assets/images/icons/zoom-in.svg" alt="click" width="18px" />
+                </div>
+            </div>
+            <div class="galleryImg completed">
+                <img src="Assets/images/gallery/image4.jpg" alt="gallery image" class="galThumb" width="100%" data-target="3" />
+                <div class="zoomIcon">
+                    <img src="Assets/images/icons/zoom-in.svg" alt="click" width="18px" />
+                </div>
+            </div>
+            <div class="galleryImg completed">
+                <img src="Assets/images/gallery/image5.jpg" alt="gallery image" class="galThumb" width="100%" data-target="4" />
+                <div class="zoomIcon">
+                    <img src="Assets/images/icons/zoom-in.svg" alt="click" width="18px" />
+                </div>
+            </div>
+            <div class="galleryImg completed">
+                <img src="Assets/images/gallery/image6.jpg" alt="gallery image" class="galThumb" width="100%" data-target="5" />
+                <div class="zoomIcon">
+                    <img src="Assets/images/icons/zoom-in.svg" alt="click" width="18px" />
+                </div>
+            </div>
+            <div class="galleryImg completed">
+                <img src="Assets/images/gallery/image7.jpg" alt="gallery image" class="galThumb" width="100%" data-target="6" />
+                <div class="zoomIcon">
+                    <img src="Assets/images/icons/zoom-in.svg" alt="click" width="18px" />
+                </div>
+            </div>
+            <div class="galleryImg ongoing">
+                <img src="Assets/images/gallery/image8.jpg" alt="gallery image" class="galThumb" width="100%" data-target="7" />
+                <div class="zoomIcon">
+                    <img src="Assets/images/icons/zoom-in.svg" alt="click" width="18px" />
+                </div>
+            </div>
+            <div class="galleryImg completed">
+                <img src="Assets/images/gallery/image9.jpg" alt="gallery image" class="galThumb" width="100%" data-target="8" />
+                <div class="zoomIcon">
+                    <img src="Assets/images/icons/zoom-in.svg" alt="click" width="18px" />
+                </div>
+            </div>
+            <div class="galleryImg ongoing">
+                <img src="Assets/images/gallery/image10.jpg" alt="gallery image" class="galThumb" width="100%" data-target="9" />
+                <div class="zoomIcon">
+                    <img src="Assets/images/icons/zoom-in.svg" alt="click" width="18px" />
+                </div>
+            </div>
+            <div class="galleryImg ongoing">
+                <img src="Assets/images/gallery/image11.jpg" alt="gallery image" class="galThumb" width="100%" data-target="10" />
+                <div class="zoomIcon">
+                    <img src="Assets/images/icons/zoom-in.svg" alt="click" width="18px" />
+                </div>
+            </div>
+            <div class="galleryImg ongoing">
+                <img src="Assets/images/gallery/image12.jpg" alt="gallery image" class="galThumb" width="100%" data-target="11" />
+                <div class="zoomIcon">
+                    <img src="Assets/images/icons/zoom-in.svg" alt="click" width="18px" />
+                </div>
+            </div>
+        </div>
+        <dialog id="galleryModal" class="default-pad">
+            <div class="galleryImgViewer">
+                <div class="modalClose">
+                    <img src="Assets/images/icons/x-square.svg" alt="close" width="30px">
+                </div>
+                <div class="galleryStage">
+                </div>
+                <div class="imgViewerControllers">
+                    <img src="Assets/images/icons/chevron-compact-left.svg" alt="left" width="42px" class="" id="prevButton" />
+                    <img src="Assets/images/icons/chevron-compact-right.svg" alt="right" width="42px" class="" id="nextButton" />
+                </div>
+            </div>
+        </dialog>
+    </section>
+    <!-- Gallery End -->
+
+    <!-- Blogs Start -->
+    <section class="blogs default-pad IS" id="blogs">
+        <h2>BLOGS</h2>
+        <div class="blog-carousel">
+
+
+            <div class="blog-slide">
+                <div class="blogCard card0">
+                    <div class="blogCardImg">
+                        <img src="Assets/images/gallery/image7.jpg" alt="blog image" width="100%">
+                    </div>
+                    <div class="blogCardContent">
+                        <div class="card_title">
+                            <h3>5 Interior Design Trends That Will Define 2025</h3>
+                        </div>
+                        <p>
+                            Discover the hottest interior design styles that are set to dominate 2025. From sustainable materials to bold color palettes and smart home integration, these trends will transform your living spaces into timeless masterpieces.
+                        </p>
+                    </div>
+                    <div class="blogCardAction ">
+                        <a href="blogs/blog1.html" class="learnmore regular">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-slide">
+                <div class="blogCard card1">
+                    <div class="blogCardImg">
+                        <img src="Assets/images/gallery/image8.jpg" alt="blog image" width="100%">
+                    </div>
+                    <div class="blogCardContent">
+                        <div class="card_title">
+                            <h3>How to Create a Minimalist Home Without Compromising Comfort</h3>
+                        </div>
+                        <p>
+                            Minimalism is more than just empty spaces — it’s about purposeful design. Learn how to balance simplicity, elegance, and coziness to create a home that feels open yet inviting.
+                        </p>
+                    </div>
+                    <div class="blogCardAction">
+                        <a href="blogs/blog1.html" class="learnmore regular">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-slide">
+                <div class="blogCard card2">
+                    <div class="blogCardImg">
+                        <img src="Assets/images/gallery/image3.jpg" alt="blog image" width="100%">
+                    </div>
+                    <div class="blogCardContent">
+                        <div class="card_title">
+                            <h3>Top 10 Luxury Living Room Ideas for Modern Homes</h3>
+                        </div>
+                        <p>
+                            From designer furniture to layered lighting, discover the ultimate luxury living room inspirations that combine elegance and functionality. Upgrade your space with ideas that truly make a statement.
+                        </p>
+                    </div>
+                    <div class="blogCardAction">
+                        <a href="blogs/blog1.html" class="learnmore regular">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-slide">
+                <div class="blogCard">
+                    <div class="blogCardImg">
+                        <img src="Assets/images/gallery/image7.jpg" alt="blog image" width="100%">
+                    </div>
+                    <div class="blogCardContent">
+                        <div class="card_title">
+                            <h3>5 Interior Design Trends That Will Define 2025</h3>
+                        </div>
+                        <p>
+                            Discover the hottest interior design styles that are set to dominate 2025. From sustainable materials to bold color palettes and smart home integration, these trends will transform your living spaces into timeless masterpieces.
+                        </p>
+                    </div>
+                    <div class="blogCardAction ">
+                        <a href="blogs/blog1.html" class="learnmore regular">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="blog-slide">
+                <div class="blogCard card2">
+                    <div class="blogCardImg">
+                        <img src="Assets/images/gallery/image3.jpg" alt="blog image" width="100%">
+                    </div>
+                    <div class="blogCardContent">
+                        <div class="card_title">
+                            <h3>Top 10 Luxury Living Room Ideas for Modern Homes</h3>
+                        </div>
+                        <p>
+                            From designer furniture to layered lighting, discover the ultimate luxury living room inspirations that combine elegance and functionality. Upgrade your space with ideas that truly make a statement.
+                        </p>
+                    </div>
+                    <div class="blogCardAction">
+                        <a href="blogs/blog1.html" class="learnmore regular">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Blogs End -->
+    <!-- Clients Start -->
+    <section class="clients default-pad" id="clients">
+        <h2>
+            OUR CLIENTS
+        </h2>
+        <div class="clientSlider">
+            <div class="clientLogo">
+                <img src="Assets/images/clients/c1.png" alt="client logo" width="100%">
+            </div>
+            <div class="clientLogo">
+                <img src="Assets/images/clients/c2.png" alt="client logo" width="100%">
+            </div>
+            <div class="clientLogo">
+                <img src="Assets/images/clients/c3.png" alt="client logo" width="100%">
+            </div>
+            <div class="clientLogo">
+                <img src="Assets/images/clients/c4.png" alt="client logo" width="100%">
+            </div>
+            <div class="clientLogo">
+                <img src="Assets/images/clients/c5.png" alt="client logo" width="100%">
+            </div>
+            <div class="clientLogo">
+                <img src="Assets/images/clients/c6.png" alt="client logo" width="100%">
+            </div>
+            <div class="clientLogo">
+                <img src="Assets/images/clients/c7.png" alt="client logo" width="100%">
+            </div>
+            <div class="clientLogo">
+                <img src="Assets/images/clients/c8.png" alt="client logo" width="100%">
+            </div>
+        </div>
+    </section>
+    <!-- Clients End -->
+    <!-- Contact Us Start -->
+    <section class="contact default-pad" id="contactus">
+        <h2>CONTACT US</h2>
+        <div class="contactSectionInfo">
+            <form class="contactForm" action="/" method="post">
+                <div class="formField">
+                    <!-- <label for="username">Your Name</label> -->
+                    <input type="text" name="username" autocomplete="additional-name" id="username" placeholder="Your Name" required />
+                </div>
+                <div class="formField">
+                    <!-- <label for="usermail">Your Mail</label> -->
+                    <input type="email" name="usermail" autocomplete="additional-name" id="usermail" placeholder="Your Mail" required/>
+                </div>
+                <div class="formField">
+                    <!-- <label for="usernumber">Contact Mobile</label> -->
+                    <input type="tel" name="usernumber" autocomplete="additional-name" id="usernumber" placeholder="Your Mobile" />
+                </div>
+                <div class="formField">
+                    <!-- <label for="usermessage">Message</label> -->
+                    <textarea name="usermessage" autocomplete="additional-name" id="usermessage" rows="2" placeholder="Message"></textarea>
+                </div>
+                <div class="formField">
+                    <button type="submit" name="submitBtn" class="btn dark-brown">SUBMIT</button>
+                </div>
+            </form>
+            <address>
+                    <div>
+                        <b>Address:</b> 
+                        <p>
+                            27th Floor, Skyline Business Park, MG Road, Indiranagar, Bengaluru, Karnataka 560038, India
+                        </p>
+                    </div>
+                    <div>
+                        <b>Phone:</b> 
+                        <p>
+                            9876543210
+                        </p>
+                    </div>
+                    <div>
+                        <b>Email:</b> 
+                        <p>
+                           interiordesigns@homes.org
+                        </p>
+                    </div>
+                </address>
+
+            <address>
+                    <div>
+                        <h3>Artevia Interiors</h3>
+                        <p>
+                            4th Avenue, Greenview Complex, Jubilee Hills, Hyderabad, Telangana 500033, India
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Artevia Studio</h3>
+                        <p>
+                            Plot No. 102, Palm Heights, Banjara Hills, Road No. 12, Hyderabad, Telangana 500034, India
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Artevia Interiors HQ</h3>
+                        <p>
+                            Level 12, Infinity Towers, DLF Cyber City, Phase III, Gurugram, Haryana 122002, India
+                        </p>
+                    </div>
+                </address>
+        </div>
+        <div class="addressMap">
+            <iframe width="100%" height="450" style="border:0" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d547776.2780653463!2d77.27016903396128!3d12.957355101424577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1758609468255!5m2!1sen!2sin">
+            </iframe>
+        </div>
+    </section>
+    <!-- Contact Us End -->
+
+    <!-- Footer Start -->
+    <section class="footer default-pad">
+        <div class="footerRow">
+                    <div class="footerCol">
+            <div class="logo_wrapper">
+                <img src="Assets/images/logo-white.png" alt="artiva Logo" width="100%">
+            </div>
+            <div class="artivaQuote">
+                <p>
+                    <span class="LetterXL">W</span>e don’t just
+                    <br>
+                    <b>
+                    Design Spaces — <br>
+                </b>
+                    <span class="LetterXL"> W</span>e
+                    <b> Craft Experiences</b>.
+                </p>
+            </div>
+        </div>
+        <div class="footerCol">
+            <h3>QUICK LINKS</h3>
+            <ul class="quickLinks">
+                <li><a href="#about"> ABOUT ARTEVIA </a>  </li>
+                <li><a href="#services"> SERVICES </a> </li>
+                <li><a href="#blogs"> LATEST BLOGS </a> </li>
+                <li><a href="#gallery"> PROJECT GALLERY </a> </li>
+            </ul>
+        </div>
+        <div class="footerCol">
+            <h3>GET IN TOUCH</h3>
+            <div class="quickLinks">
+                <b>Address:</b> 
+                    <p>
+                        27th Floor, Skyline Business Park, MG Road, Indiranagar, Bengaluru, Karnataka 560038, India
+                    </p>
+            </div>
+        </div>
+        </div>
+        <div class="copyRights">
+            <h6>All copyrights reserved@2025 by ARTEVIA </h6>
+        </div>
+    </section>
+    <!-- Footer End -->
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Bootstrap CDNs -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Hamburger -->
+    <script src="Assets/js/animation/hamburger.js"></script>
+    <!-- Header toggle handler -->
+    <script src="Assets/js/animation/header.js"></script>
+    <!-- Intersection Observer -->
+    <script src="Assets/js/util/itobs.js"></script>
+    <!-- Gallery Tab Switch Handler -->
+    <script src="Assets/js/gallery.js"></script>
+    <!-- HTML Preloader -->
+    <script src="Assets/js/animation/preloader.js"></script>
+    <!-- slick slider -->
+    <script>
+        $(document).ready(function () {
+            // blog slider
+          $('.blog-carousel').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+            infinite: true,
+            responsive: [
+              {
+                breakpoint: 992,
+                settings: {
+                  slidesToShow: 2
+                }
+              },
+              {
+                breakpoint: 576,
+                settings: {
+                  slidesToShow: 1
+                }
+              }
+            ]
+          });
+        });
+        // clients slider
+        $('.clientSlider').slick({
+          dots: false,
+          infinite: false,
+          speed: 300,
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+        });
+    </script>
+
+</body>
+</html>
