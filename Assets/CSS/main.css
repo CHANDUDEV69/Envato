@@ -1027,7 +1027,14 @@ dialog::backdrop {
 			color: var(--template-primary-color);
 		}
 	}
-
+	
+	.navlinks ul.mobile {
+		background: #fff !important;
+		border: var(--template-primary-color);
+	}
+	.navlinks ul.mobile li a{
+		color: var(--template-primary-color) !important;
+	}
 	.blogCardContent h3,
 	.blogCardAction .learnmore {
 		color: var(--template-primary-color) !important;
