@@ -6,7 +6,6 @@
             }
             window.addEventListener("DOMContentLoaded", ()=>{
             let i = 0;
-            document.querySelector("body").classList.add("dark-mode");
             setInterval(()=>{
                 animateSVG();
             }, 2100)
